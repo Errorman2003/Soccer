@@ -1,0 +1,116 @@
+body {
+    background: radial-gradient(farthest-side at 0 0,rgb(99,9,5),rgb(199,47,44) 70% 50%);
+}
+
+/* Containers */
+section {
+ background-image: url("../images/soccer.jpg");
+ background-position: top;
+background-color: rgb(241,50,35);
+background-blend-mode:overlay;
+background-size: cover;
+width: 90%;
+padding: 2%;
+margin-top: 3rem;
+box-shadow: 3px 3px 20px 1px #303030;
+}
+
+
+.content {
+    padding: 5%;
+ }
+
+/* Typography */
+
+ h1 {
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    color: rgb(253,255,255);
+    letter-spacing: 0;
+    margin-top: 0;
+    display: inline;
+    padding: 0;
+ }
+
+
+ .fir {
+    font-size: 5.5rem;
+    color: rgb(274, 174, 186);
+ }
+
+
+ .sec-h1 {
+    font-size: 3rem;
+ }
+
+
+ .third-h1 {
+    font-size: 8rem;
+ }
+
+
+ .content a {
+    background-color: rgb(0,0,0);
+    padding: 2% 10%;
+    text-decoration: none;
+    border-radius: 30px;
+    display: block;
+    width: fit-content;
+    color: rgb(253,255,255);
+    font-weight: 400;
+    margin-top: 3%;
+ }
+
+
+ .dash {
+    width: 4.8rem;
+    height: 0.5rem;
+    background-color: rgb(253,255,255);
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+ }
+
+
+ p {
+    color: rgba(255,255,255,0.8);
+ }
+
+
+ /* navbar */
+
+ nav .navbar-brand {
+    color: rgba(255,255,255,0.8);
+    font-weight: 700;
+    font-size: 1.5rem;
+ }
+
+
+ ul .nav-link {
+    color: rgba(255,255,255,0.8);
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 150px;
+
+ }
+
+/*
+ _/﹋\_
+(҂`_´)
+<,︻╦╤─ ҉ - -
+_/﹋\_  
+*/
+
+ /* hover states */
+ ul .nav-link:hover {
+    color: white;
+ }
+ nav .navbar-brand:hover {
+    color: white;
+ }
+ .content a:hover {
+    color: white
+ }
